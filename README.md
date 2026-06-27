@@ -70,9 +70,8 @@ d'analytics tiers distinct, et nous ne vendons ni ne louons vos données.
 
 ## 7. Enfants
 
-L'Application convient à un large public. Elle ne s'adresse pas spécifiquement aux
-enfants de moins de 13 ans et ne collecte pas sciemment de données personnelles les
-concernant. Les publicités diffusées sont soumises aux règles de Google AdMob.
+L'Application convient à un large public. Elle est destinée à un public de 13 ans et plus, et ne collecte pas sciemment de données personnelles
+concernant ses utilisateurs. Les publicités diffusées sont soumises aux règles de Google AdMob.
 
 ## 8. Vos droits
 
