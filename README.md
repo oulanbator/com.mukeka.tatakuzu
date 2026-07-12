@@ -2,7 +2,7 @@
 
 **Éditeur :** MUKEKA
 **Application :** Tatakuzu (Android)
-**Dernière mise à jour :** 23 juin 2026
+**Dernière mise à jour :** 12 juillet 2026
 ---
 
 ## 1. Introduction
@@ -62,18 +62,43 @@ L'Application propose des publicités **récompensées** facultatives (par exemp
 obtenir un indice ou récupérer une étoile). Les regarder est toujours **à votre
 initiative** ; elles relèvent du même traitement AdMob décrit à la section 3.
 
-## 6. Pas de backend, pas d'analytics tiers
+## 6. Rapports de plantage et diagnostics (Firebase Crashlytics)
 
-En dehors de Google AdMob (et de son SDK de consentement UMP), l'Application **n'envoie
-aucune donnée** à un serveur qui nous appartiendrait. Nous n'utilisons pas d'outil
-d'analytics tiers distinct, et nous ne vendons ni ne louons vos données.
+Pour améliorer la stabilité de l’Application, nous utilisons **Firebase
+Crashlytics**, un service fourni par Google. En cas de plantage ou d’anomalie
+technique, ce service peut collecter et nous transmettre des **données de
+diagnostic non personnelles**, notamment :
 
-## 7. Enfants
+- un **identifiant d’installation** (propre à l’installation de l’Application, non
+  rattaché à votre identité) ;
+- le **type d’appareil**, la **version du système d’exploitation**, la langue et la
+  région ;
+- l’**état technique au moment de l’incident** (rapport d’erreur / « stacktrace »,
+  écran en cours, difficulté, taille de grille).
+
+Nous **ne collectons aucune donnée permettant de vous identifier** (ni e-mail, ni
+nom de joueur, ni contenu de vos parties) via ce service.
+
+Cette collecte est **désactivée par défaut** et ne s’active qu’**après votre passage
+par l’écran de consentement** (section 4), et uniquement si celui-ci l’autorise.
+Vous pouvez la **désactiver à tout moment** via Réglages → « Rapports de plantage ».
+
+- Firebase et confidentialité : https://firebase.google.com/support/privacy
+
+## 7. Pas de backend, pas d'analytics tiers
+
+En dehors de Google AdMob (et de son SDK de consentement UMP) et de Firebase
+Crashlytics (diagnostics de plantage, section 6), l’Application **n’envoie aucune
+donnée** à un serveur qui nous appartiendrait : nous n’avons ni backend ni compte
+utilisateur. Nous n’utilisons **pas d’analytics comportemental** (suivi de vos
+actions dans le jeu, profilage, funnels) et nous ne vendons ni ne louons vos données.
+
+## 8. Enfants
 
 L'Application convient à un large public. Elle est destinée à un public de 13 ans et plus, et ne collecte pas sciemment de données personnelles
 concernant ses utilisateurs. Les publicités diffusées sont soumises aux règles de Google AdMob.
 
-## 8. Vos droits
+## 9. Vos droits
 
 Selon votre juridiction (notamment RGPD), vous disposez de droits d'accès, de
 rectification, d'effacement et d'opposition. La majeure partie des données de
@@ -81,12 +106,12 @@ l'Application étant **locale**, vous les contrôlez directement (réinitialisat
 désinstallation). Pour les données traitées par Google dans le cadre publicitaire,
 référez-vous aux liens de la section 3 et à vos paramètres Android.
 
-## 9. Modifications
+## 10. Modifications
 
 Cette politique peut être mise à jour. La date de « Dernière mise à jour » en tête de
 document reflète la version en vigueur. Les changements importants seront signalés via
 la fiche de l'Application sur le Google Play Store.
 
-## 10. Contact
+## 12. Contact
 
 Pour toute question relative à cette politique ou à vos données : mukeka.studio@gmail.com
