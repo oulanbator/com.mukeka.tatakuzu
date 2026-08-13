@@ -1,7 +1,9 @@
 # Politique de confidentialité — Tatakuzu
 
 **Éditeur :** MUKEKA
+
 **Application :** Tatakuzu (Android)
+
 **Dernière mise à jour :** 13 août 2026
 
 ---
