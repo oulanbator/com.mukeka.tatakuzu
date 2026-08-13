@@ -237,5 +237,3 @@ seront signalés via la fiche de l'Application sur le Google Play Store.
 Pour toute question relative à cette politique ou à tes données :
 **mukeka.studio@gmail.com**
 
-> 23 juin et le 12 juillet 2026 (l'ajout de Crashlytics n'avait été fait qu'en
-> ligne).
